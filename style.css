@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td:not(.phone-cell) {
+    padding: 10px;
+}
+
+.phone-cell {
+    padding: 0;
+}
+
+.p-line {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+.phone-cell div:last-child {
+    padding: 10px 0;
+}
+
+tbody tr:nth-child(1) { background-color: #ffcccc; }
+tbody tr:nth-child(2) { background-color: #d2b48c; }
+tbody tr:nth-child(3) { background-color: #d4edda; }
+tbody tr:nth-child(4) { background-color: #ffe5b4; }
+tbody tr:nth-child(5) { background-color: #e2d9f3; }
